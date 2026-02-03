@@ -67,17 +67,11 @@ GitHub Actions Integration: Features a fully automated workflow located in .gith
 
 ### 1\. Clone and Install
 
-\# Install dependencies_npm install_\# Install Playwright browsers_npx playwright install_
+#### Install dependencies
+--> _npm install_
 
-### 2\. Cleanup (Migration from Storage State)
-
-If you previously used auth.setup.ts, ensure the following are removed to avoid configuration clashes:
-
-*   Delete tests/auth.setup.ts.
-    
-*   Delete the playwright-auth/ folder.
-    
-*   Ensure playwright.config.ts has no dependencies or storageState properties.
+#### Install Playwright browsers
+--> _npx playwright install_
     
 
 🧪 Running Tests
