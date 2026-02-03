@@ -1,0 +1,24 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverPedrosoQA/saucedemo-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/OliverPedrosoQA/saucedemo-playwright/issues"
+  },
+  "homepage": "https://github.com/OliverPedrosoQA/saucedemo-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0",
+    "typescript": "^5.9.3"
+  }
+}
